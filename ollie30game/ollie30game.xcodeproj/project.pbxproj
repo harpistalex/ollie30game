@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FAF965C21E7E287007979CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF965B21E7E287007979CE /* GoogleService-Info.plist */; };
+		2FC88AFA21E75845009360FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88AF921E75845009360FD /* AppDelegate.swift */; };
+		2FC88AFC21E75845009360FD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88AFB21E75845009360FD /* GameViewController.swift */; };
+		2FC88AFF21E75845009360FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC88AFD21E75845009360FD /* Main.storyboard */; };
+		2FC88B0121E75846009360FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC88B0021E75846009360FD /* Assets.xcassets */; };
+		2FC88B0421E75846009360FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC88B0221E75846009360FD /* LaunchScreen.storyboard */; };
+		2FC88B1121E75BE1009360FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC88B1021E75BE1009360FD /* Default-568h@2x.png */; };
+		2FC88B1321E79A38009360FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88B1221E79A38009360FD /* LoginViewController.swift */; };
+		2FC88B1521E79DCD009360FD /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88B1421E79DCD009360FD /* InstructionsViewController.swift */; };
+		2FC88B1721E7A676009360FD /* QuestionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88B1621E7A676009360FD /* QuestionClass.swift */; };
+		2FC88B1921E7A686009360FD /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88B1821E7A686009360FD /* QuestionBank.swift */; };
+		2FF8699421F9012000966530 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8699321F9012000966530 /* AdminViewController.swift */; };
+		67A6D1DC6FC40FACFB3A92A0 /* Pods_ollie30game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49F2ECB62AC470AD12F9822 /* Pods_ollie30game.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FAF965B21E7E287007979CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FC88AF621E75844009360FD /* ollie30game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ollie30game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC88AF921E75845009360FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC88AFB21E75845009360FD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2FC88AFE21E75845009360FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC88B0021E75846009360FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC88B0321E75846009360FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC88B0521E75846009360FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC88B1021E75BE1009360FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2FC88B1221E79A38009360FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2FC88B1421E79DCD009360FD /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		2FC88B1621E7A676009360FD /* QuestionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionClass.swift; sourceTree = "<group>"; };
+		2FC88B1821E7A686009360FD /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		2FF8699321F9012000966530 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		495787EF4977B7C858B82661 /* Pods-ollie30game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ollie30game.release.xcconfig"; path = "Pods/Target Support Files/Pods-ollie30game/Pods-ollie30game.release.xcconfig"; sourceTree = "<group>"; };
+		C49F2ECB62AC470AD12F9822 /* Pods_ollie30game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ollie30game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E539253BAF43846E9FC5FC7A /* Pods-ollie30game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ollie30game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ollie30game/Pods-ollie30game.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC88AF321E75844009360FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A6D1DC6FC40FACFB3A92A0 /* Pods_ollie30game.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2690ADC89ECB9C4929B754C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E539253BAF43846E9FC5FC7A /* Pods-ollie30game.debug.xcconfig */,
+				495787EF4977B7C858B82661 /* Pods-ollie30game.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FC88AED21E75844009360FD = {
+			isa = PBXGroup;
+			children = (
+				2FC88AF821E75844009360FD /* ollie30game */,
+				2FC88AF721E75844009360FD /* Products */,
+				2690ADC89ECB9C4929B754C4 /* Pods */,
+				9586956191A2D8706BED18EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC88AF721E75844009360FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC88AF621E75844009360FD /* ollie30game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC88AF821E75844009360FD /* ollie30game */ = {
+			isa = PBXGroup;
+			children = (
+				2FC88B0C21E758F7009360FD /* Model */,
+				2FC88B0D21E758FE009360FD /* View */,
+				2FC88B0E21E75908009360FD /* Controller */,
+				2FC88B0F21E75910009360FD /* Supporting Files */,
+				2FC88B0021E75846009360FD /* Assets.xcassets */,
+			);
+			path = ollie30game;
+			sourceTree = "<group>";
+		};
+		2FC88B0C21E758F7009360FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FC88B1621E7A676009360FD /* QuestionClass.swift */,
+				2FC88B1821E7A686009360FD /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FC88B0D21E758FE009360FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FC88B0221E75846009360FD /* LaunchScreen.storyboard */,
+				2FC88AFD21E75845009360FD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FC88B0E21E75908009360FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FC88AF921E75845009360FD /* AppDelegate.swift */,
+				2FC88AFB21E75845009360FD /* GameViewController.swift */,
+				2FC88B1221E79A38009360FD /* LoginViewController.swift */,
+				2FC88B1421E79DCD009360FD /* InstructionsViewController.swift */,
+				2FF8699321F9012000966530 /* AdminViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FC88B0F21E75910009360FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC88B1021E75BE1009360FD /* Default-568h@2x.png */,
+				2FC88B0521E75846009360FD /* Info.plist */,
+				2FAF965B21E7E287007979CE /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9586956191A2D8706BED18EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C49F2ECB62AC470AD12F9822 /* Pods_ollie30game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC88AF521E75844009360FD /* ollie30game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC88B0821E75846009360FD /* Build configuration list for PBXNativeTarget "ollie30game" */;
+			buildPhases = (
+				F91754BF30845DBDE37C7326 /* [CP] Check Pods Manifest.lock */,
+				2FC88AF221E75844009360FD /* Sources */,
+				2FC88AF321E75844009360FD /* Frameworks */,
+				2FC88AF421E75844009360FD /* Resources */,
+				1941D163FF4A11B28257AD5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ollie30game;
+			productName = ollie30game;
+			productReference = 2FC88AF621E75844009360FD /* ollie30game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC88AEE21E75844009360FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alex's Amazing Apps";
+				TargetAttributes = {
+					2FC88AF521E75844009360FD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2FC88AF121E75844009360FD /* Build configuration list for PBXProject "ollie30game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC88AED21E75844009360FD;
+			productRefGroup = 2FC88AF721E75844009360FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC88AF521E75844009360FD /* ollie30game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC88AF421E75844009360FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC88B0421E75846009360FD /* LaunchScreen.storyboard in Resources */,
+				2FC88B1121E75BE1009360FD /* Default-568h@2x.png in Resources */,
+				2FAF965C21E7E287007979CE /* GoogleService-Info.plist in Resources */,
+				2FC88B0121E75846009360FD /* Assets.xcassets in Resources */,
+				2FC88AFF21E75845009360FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1941D163FF4A11B28257AD5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ollie30game/Pods-ollie30game-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ollie30game/Pods-ollie30game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91754BF30845DBDE37C7326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ollie30game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC88AF221E75844009360FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC88B1721E7A676009360FD /* QuestionClass.swift in Sources */,
+				2FC88B1321E79A38009360FD /* LoginViewController.swift in Sources */,
+				2FC88AFC21E75845009360FD /* GameViewController.swift in Sources */,
+				2FC88B1521E79DCD009360FD /* InstructionsViewController.swift in Sources */,
+				2FF8699421F9012000966530 /* AdminViewController.swift in Sources */,
+				2FC88AFA21E75845009360FD /* AppDelegate.swift in Sources */,
+				2FC88B1921E7A686009360FD /* QuestionBank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FC88AFD21E75845009360FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC88AFE21E75845009360FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC88B0221E75846009360FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC88B0321E75846009360FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC88B0621E75846009360FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FC88B0721E75846009360FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC88B0921E75846009360FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E539253BAF43846E9FC5FC7A /* Pods-ollie30game.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F6M783A3J;
+				INFOPLIST_FILE = "$(SRCROOT)/ollie30game/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsamazingapps.ollie30game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC88B0A21E75846009360FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495787EF4977B7C858B82661 /* Pods-ollie30game.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F6M783A3J;
+				INFOPLIST_FILE = "$(SRCROOT)/ollie30game/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsamazingapps.ollie30game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC88AF121E75844009360FD /* Build configuration list for PBXProject "ollie30game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC88B0621E75846009360FD /* Debug */,
+				2FC88B0721E75846009360FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC88B0821E75846009360FD /* Build configuration list for PBXNativeTarget "ollie30game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC88B0921E75846009360FD /* Debug */,
+				2FC88B0A21E75846009360FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC88AEE21E75844009360FD /* Project object */;
+}

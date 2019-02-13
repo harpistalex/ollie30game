@@ -1,0 +1,6 @@
+framework module Pods_ollie30game {
+  umbrella header "Pods-ollie30game-umbrella.h"
+
+  export *
+  module * { export * }
+}
