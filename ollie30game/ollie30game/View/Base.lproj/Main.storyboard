@@ -40,10 +40,10 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-75-cDn">
-                                <rect key="frame" x="20" y="183" width="335" height="30"/>
+                                <rect key="frame" x="20" y="183" width="335" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="33y-U7-h1h"/>
+                                    <constraint firstAttribute="height" constant="40" id="33y-U7-h1h"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
                                 <state key="normal" title="Log In">
@@ -51,20 +51,6 @@
                                 </state>
                                 <connections>
                                     <action selector="logInButtonPressed:" destination="pdn-OK-ChC" eventType="touchUpInside" id="ZQo-lf-ITw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsy-bK-GIc" userLabel="Register">
-                                <rect key="frame" x="20" y="215" width="335" height="30"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Zv5-jl-1WQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
-                                <state key="normal" title="Register">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="registerButtonPressed:" destination="pdn-OK-ChC" eventType="touchUpInside" id="ulY-6Q-06n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rj-z8-nHK">
@@ -81,12 +67,26 @@
                                     <action selector="loginPressed:" destination="pdn-OK-ChC" eventType="touchUpInside" id="h75-fC-QlL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsy-bK-GIc" userLabel="Register">
+                                <rect key="frame" x="20" y="231" width="335" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Zv5-jl-1WQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerButtonPressed:" destination="pdn-OK-ChC" eventType="touchUpInside" id="ulY-6Q-06n"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="OLu-ZR-4GB" firstAttribute="leading" secondItem="9Lh-1J-HzA" secondAttribute="leading" constant="20" id="6mu-I1-ujB"/>
                             <constraint firstItem="6ER-E0-f6c" firstAttribute="leading" secondItem="9Lh-1J-HzA" secondAttribute="leading" constant="20" id="DDO-1D-rE1"/>
-                            <constraint firstItem="Gsy-bK-GIc" firstAttribute="top" secondItem="Lbq-75-cDn" secondAttribute="bottom" constant="2" id="Gqc-7Z-sNw"/>
+                            <constraint firstItem="Gsy-bK-GIc" firstAttribute="top" secondItem="Lbq-75-cDn" secondAttribute="bottom" constant="8" id="Gqc-7Z-sNw"/>
                             <constraint firstItem="Lbq-75-cDn" firstAttribute="top" secondItem="6ER-E0-f6c" secondAttribute="bottom" constant="20" id="NFO-oD-Izh"/>
                             <constraint firstItem="6ER-E0-f6c" firstAttribute="top" secondItem="OLu-ZR-4GB" secondAttribute="bottom" constant="8" id="OEb-7h-ntW"/>
                             <constraint firstItem="OLu-ZR-4GB" firstAttribute="top" secondItem="9Lh-1J-HzA" secondAttribute="top" constant="75" id="b1A-Ly-7O2"/>
@@ -103,7 +103,7 @@
                             <constraint firstItem="8Rj-z8-nHK" firstAttribute="centerX" secondItem="vIf-IR-2MK" secondAttribute="centerX" id="voJ-1z-ItF"/>
                             <constraint firstItem="sT8-a7-WS9" firstAttribute="top" secondItem="vIf-IR-2MK" secondAttribute="top" id="x9H-R2-j0m"/>
                             <constraint firstItem="sT8-a7-WS9" firstAttribute="leading" secondItem="vIf-IR-2MK" secondAttribute="leading" id="xtD-5o-eJC"/>
-                            <constraint firstItem="Gsy-bK-GIc" firstAttribute="top" secondItem="Lbq-75-cDn" secondAttribute="bottom" constant="2" id="znZ-ZY-qya"/>
+                            <constraint firstItem="Gsy-bK-GIc" firstAttribute="top" secondItem="Lbq-75-cDn" secondAttribute="bottom" constant="8" id="znZ-ZY-qya"/>
                             <constraint firstItem="Gsy-bK-GIc" firstAttribute="leading" secondItem="9Lh-1J-HzA" secondAttribute="leading" constant="20" id="ztH-zx-joS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Lh-1J-HzA"/>
