@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FAD194A224ABA4F00F19A7A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD1949224ABA4F00F19A7A /* Toast.swift */; };
 		2FAF965C21E7E287007979CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF965B21E7E287007979CE /* GoogleService-Info.plist */; };
 		2FC88AFA21E75845009360FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88AF921E75845009360FD /* AppDelegate.swift */; };
 		2FC88AFC21E75845009360FD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC88AFB21E75845009360FD /* GameViewController.swift */; };
@@ -23,8 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FAD1949224ABA4F00F19A7A /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		2FAF965B21E7E287007979CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2FC88AF621E75844009360FD /* ollie30game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ollie30game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC88AF621E75844009360FD /* ollie_is_30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ollie_is_30.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC88AF921E75845009360FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FC88AFB21E75845009360FD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2FC88AFE21E75845009360FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 		2FC88B1421E79DCD009360FD /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 		2FC88B1621E7A676009360FD /* QuestionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionClass.swift; sourceTree = "<group>"; };
 		2FC88B1821E7A686009360FD /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		2FD49FEB22739AC200C3B3B8 /* ollie30game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ollie30game.entitlements; sourceTree = "<group>"; };
 		2FF8699321F9012000966530 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
 		495787EF4977B7C858B82661 /* Pods-ollie30game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ollie30game.release.xcconfig"; path = "Pods/Target Support Files/Pods-ollie30game/Pods-ollie30game.release.xcconfig"; sourceTree = "<group>"; };
 		C49F2ECB62AC470AD12F9822 /* Pods_ollie30game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ollie30game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +69,7 @@
 		2FC88AED21E75844009360FD = {
 			isa = PBXGroup;
 			children = (
+				2FD49FEB22739AC200C3B3B8 /* ollie30game.entitlements */,
 				2FC88AF821E75844009360FD /* ollie30game */,
 				2FC88AF721E75844009360FD /* Products */,
 				2690ADC89ECB9C4929B754C4 /* Pods */,
@@ -76,7 +80,7 @@
 		2FC88AF721E75844009360FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FC88AF621E75844009360FD /* ollie30game.app */,
+				2FC88AF621E75844009360FD /* ollie_is_30.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +102,7 @@
 			children = (
 				2FC88B1621E7A676009360FD /* QuestionClass.swift */,
 				2FC88B1821E7A686009360FD /* QuestionBank.swift */,
+				2FAD1949224ABA4F00F19A7A /* Toast.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FC88AF521E75844009360FD /* ollie30game */ = {
+		2FC88AF521E75844009360FD /* ollie_is_30 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FC88B0821E75846009360FD /* Build configuration list for PBXNativeTarget "ollie30game" */;
+			buildConfigurationList = 2FC88B0821E75846009360FD /* Build configuration list for PBXNativeTarget "ollie_is_30" */;
 			buildPhases = (
 				F91754BF30845DBDE37C7326 /* [CP] Check Pods Manifest.lock */,
 				2FC88AF221E75844009360FD /* Sources */,
@@ -158,9 +163,9 @@
 			);
 			dependencies = (
 			);
-			name = ollie30game;
+			name = ollie_is_30;
 			productName = ollie30game;
-			productReference = 2FC88AF621E75844009360FD /* ollie30game.app */;
+			productReference = 2FC88AF621E75844009360FD /* ollie_is_30.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,6 +180,14 @@
 				TargetAttributes = {
 					2FC88AF521E75844009360FD = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -191,7 +204,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FC88AF521E75844009360FD /* ollie30game */,
+				2FC88AF521E75844009360FD /* ollie_is_30 */,
 			);
 		};
 /* End PBXProject section */
@@ -272,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC88B1721E7A676009360FD /* QuestionClass.swift in Sources */,
+				2FAD194A224ABA4F00F19A7A /* Toast.swift in Sources */,
 				2FC88B1321E79A38009360FD /* LoginViewController.swift in Sources */,
 				2FC88AFC21E75845009360FD /* GameViewController.swift in Sources */,
 				2FC88B1521E79DCD009360FD /* InstructionsViewController.swift in Sources */,
@@ -424,6 +438,7 @@
 			baseConfigurationReference = E539253BAF43846E9FC5FC7A /* Pods-ollie30game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ollie_is_30.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F6M783A3J;
 				INFOPLIST_FILE = "$(SRCROOT)/ollie30game/Supporting Files/Info.plist";
@@ -443,6 +458,7 @@
 			baseConfigurationReference = 495787EF4977B7C858B82661 /* Pods-ollie30game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ollie_is_30.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F6M783A3J;
 				INFOPLIST_FILE = "$(SRCROOT)/ollie30game/Supporting Files/Info.plist";
@@ -469,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FC88B0821E75846009360FD /* Build configuration list for PBXNativeTarget "ollie30game" */ = {
+		2FC88B0821E75846009360FD /* Build configuration list for PBXNativeTarget "ollie_is_30" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FC88B0921E75846009360FD /* Debug */,

@@ -9,14 +9,18 @@
 import UIKit
 
 class InstructionsViewController: UIViewController {
-
+    
+    @IBOutlet weak var instructionsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        instructionsLabel.text = "Welcome to ollie_is_30 the game! Answers can be found all around you. If you haven’t yet found the answer, press skip - you can come back to it later. You only get one shot at each question! Once you’ve answered, you can’t go back and change it.\n\nUse Google and ask those around you. Please leave clues where you found them.\n\nYour answers are synched with an online database, the winner will be announced at the end of the day. If you lose your internet connection, answers are stored locally and uploaded when the connection is resumed. For further info or if you’re really stuck, speak with Alex."
+
+    
     }
     
-
+    
     /*
     // MARK: - Navigation
 

@@ -14,7 +14,7 @@ class AdminViewController: UIViewController, UITableViewDelegate, UITableViewDat
     let firebaseRef = Database.database().reference()
     var firebaseDataRecieved : Dictionary <String, Any> = [:]
     var scoresRecieved = [Int]()
-    var emailsRecieved = [String]()
+    var usernamesRecieved = [String]()
     var finalResults = [String]()
 
     @IBOutlet weak var resultsTableView: UITableView!
@@ -46,6 +46,7 @@ class AdminViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 
                 // DATA WAS NOT FOUND
                 print("– – – Data was not found – – –")
+                Toast.show(message: "Data was not found", controller: self)
                 
             } else {
                 
@@ -56,13 +57,13 @@ class AdminViewController: UIViewController, UITableViewDelegate, UITableViewDat
                     let dict = user_snap.value as! [String: Any]
                     
                     // DEFINE VARIABLES FOR LABELS
-                    let email = dict["email"]
+                    let username = dict["username"]
                     let score = dict["Score"]
                     //print("Email: \(email ?? "not found"), Score: \(score ?? 0)")
-                    self.firebaseDataRecieved["\(email ?? "no email found")"] = score ?? 0
+                    self.firebaseDataRecieved["\(username ?? "no username found")"] = score ?? 0
                     //print(self.firebaseDataRecieved)
                     
-                    self.emailsRecieved.append(dict["email"] as! String)
+                    self.usernamesRecieved.append(dict["username"] as! String)
                     self.scoresRecieved.append(dict["Score"] as! Int)
                     //print(self.emailsRecieved)
                     //print(self.scoresRecieved)
@@ -96,24 +97,24 @@ class AdminViewController: UIViewController, UITableViewDelegate, UITableViewDat
             for j in 1...i {
                 if scoresRecieved[j-1] < scoresRecieved[j] {
                     let tmp = scoresRecieved[j-1]
-                    let tmp2 = emailsRecieved[j-1]
+                    let tmp2 = usernamesRecieved[j-1]
                     scoresRecieved[j-1] = scoresRecieved[j]
-                    emailsRecieved[j-1] = emailsRecieved[j]
+                    usernamesRecieved[j-1] = usernamesRecieved[j]
                     scoresRecieved[j] = tmp
-                    emailsRecieved[j] = tmp2
+                    usernamesRecieved[j] = tmp2
                 }
             }
         }
         
         print(scoresRecieved)
-        print(emailsRecieved)
+        print(usernamesRecieved)
         //resultsTableView.reloadData()
         
     }
     
     func createFinalResults(){
-        for index in 0...emailsRecieved.count - 1 {
-            finalResults.append("\(emailsRecieved[index]): \(scoresRecieved[index])")
+        for index in 0...usernamesRecieved.count - 1 {
+            finalResults.append("\(usernamesRecieved[index]): \(scoresRecieved[index])")
         }
         print(finalResults)
         resultsTableView.reloadData()
